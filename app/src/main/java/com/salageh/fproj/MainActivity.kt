@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-        }
+        }//edge to edge - De ponta a ponta; Usa 100% da tela do dispositivo
+        //Começou na API 35
     }
 }
